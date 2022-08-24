@@ -1,0 +1,288 @@
+html,body{
+    background-color: rgb(129, 158, 202);
+    transition: all 1s ease-in-out;
+}
+
+
+
+main{
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+#voter {
+    transition: all 1s ease-in-out;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+    margin-top: 180px;
+    width: 700px;
+    height: 450px;
+    border-radius: 60px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+#title-vote{
+    transition: all 1s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.17);
+    border: 1px solid  rgba(255,255,255,0.18);
+   margin: 3px;
+    width: 250px;
+    border-radius: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight:normal;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+#edit{
+    position: absolute;
+    left: 235px;
+    top: 510px;
+    transition: all 1s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.17);
+    border: 1px solid  rgba(255,255,255,0.18);
+   margin: 3px;
+    width: 250px;
+    border-radius: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight:normal;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    font-size: large;
+}
+   
+
+#tited {
+    height: 50px;
+    transition: all 1s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.17);
+    border: none;
+   margin: 3px;
+    width: 250px;
+    border-radius: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight:normal;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+    outline: none;
+}
+
+#close-edit{
+    background-color: rgba(255,255,255,0.1);
+    border-radius:14px;
+    font-size:large;
+    backdrop-filter: blur(10px);
+    border:none;
+    color:white;
+    position: absolute;
+    top: 9px;
+    right: 770px;
+    padding: 0;
+    margin: 0;
+    transition: all 1s ease-in-out;
+    display: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#first-v{
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 20px;
+    height:100px;
+width: 300px;
+position: absolute;
+left: 200px;    
+top:110px;
+cursor: pointer;
+font-size: x-large;
+color:white;
+}
+
+#second-v{
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 20px;
+    height:100px;
+width: 300px;
+position: absolute;
+left: 200px;    
+top:250px;
+cursor: pointer;
+font-size: x-large;
+color:white;
+}
+
+#first-variant{
+    height: 50px;
+    transition: all 1s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.17);
+    border: none;
+   margin: 3px;
+    width: 250px;
+    border-radius: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight:normal;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+    outline: none;
+    position: absolute;
+    top: 460px;
+    left: 670px;
+    display: none;
+}
+
+#second-variant{
+    
+        height: 50px;
+        transition: all 1s ease-in-out;
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.17);
+        border: none;
+       margin: 3px;
+        width: 250px;
+        border-radius: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white;
+        font-weight:normal;
+        background-color: rgba(255,255,255,0.1);
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+        font-size: large;
+        text-decoration: none;
+        outline: none;
+    position: absolute;
+    top: 460px;
+    left: -180px;
+    display:none;
+}
+
+#edit-first{
+    position: absolute;
+    left: 400px;
+    top: 460px;
+    transition: all 1s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.17);
+    border: 1px solid  rgba(255,255,255,0.18);
+   margin: 3px;
+    width: 250px;
+    border-radius: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight:normal;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    font-size: large;
+}
+
+#edit-second{
+    position: absolute;
+    left: 100px;
+    top: 460px;
+    transition: all 1s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.17);
+    border: 1px solid  rgba(255,255,255,0.18);
+   margin: 3px;
+    width: 250px;
+    border-radius: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight:normal;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    font-size: large;
+    
+}
+
+#close-first{
+    background-color: rgba(255,255,255,0.1);
+    border-radius:14px;
+    font-size:large;
+    backdrop-filter: blur(10px);
+    border:none;
+    color:white;
+    position: absolute;
+    top: 464px;
+    left: -235px;
+    padding: 0;
+    margin: 0;
+    transition: all 1s ease-in-out;
+    display: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#close-second{
+    background-color: rgba(255,255,255,0.1);
+    border-radius:14px;
+    font-size:large;
+    backdrop-filter: blur(10px);
+    border:none;
+    color:white;
+    position: absolute;
+    top: 464px;
+    right: -285px;
+    padding: 0;
+    margin: 0;
+    transition: all 1s ease-in-out;
+    display: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+}
+#first-result{
+    position: absolute;
+    top: 220px;
+    left: 278px;
+    transition: all 1s ease-in-out;
+    height: 25px;
+}
+#second-result{
+    position: absolute;
+    top: 360px;
+    left: 278px;
+    transition: all 1s ease-in-out;
+    height: 25px;
+}
+
+#votes-first{
+    color:white;
+    position: absolute;
+    top: 204px;
+    left: 245px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#votes-second{
+    color:white;
+    position: absolute;
+    top: 344px;
+    left: 245px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
